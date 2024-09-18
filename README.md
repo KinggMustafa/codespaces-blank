@@ -19,5 +19,6 @@ javac -d out -cp out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar src/u/Hybrid
 
 Step 6: Run the JUnit Test
 Run the JUnit test, execute the command:
-java -cp out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore u.HybridTest. 
+java -cp out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore HybridTest
+ 
 This will execute the test cases and output the results to the terminal
